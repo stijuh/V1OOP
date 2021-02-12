@@ -34,4 +34,20 @@ public class Voetbalclub {
         return str;
     }
 
+    public String getNaam() {
+        return naam;
+    }
+
+    public int getAantalGewonnen() {
+        return aantalGewonnen;
+    }
+
+    public int getAantalGelijk() {
+        return aantalGelijk;
+    }
+
+    public int getAantalVerloren() {
+        return aantalVerloren;
+    }
+
 }
